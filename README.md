@@ -55,7 +55,7 @@ print('re.match:', result)
 re.match: None
 ```
 
-**_re.search ищет первое совпадение_**
+**_re.search ищет первое совпадение в тексте_**
 
 ```{python}
 result2 = re.search(r'\bпут\w+', text)
