@@ -151,7 +151,7 @@ print('хэштеги:', result)
 _Посмотреть даты твитов?_
 
 ```{python}
-result = re.findall(r'\w+\s[0-9]{2}\,\s[0-9]{4}', text)
+result = re.findall(r'\b\w{3}\s[0-9]{1,2}\,\s[0-9]{4}', text)
 print(result)
 ['Oct 20, 2021', 'Oct 20, 2021', 'Oct 19, 2021', 'Oct 19, 2021', 'Oct 19, 2021', 'Oct 19, 2021', 'Oct 19, 2021', 'Oct 18, 2021', 'Oct 18, 2021']
 ```
